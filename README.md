@@ -2,7 +2,7 @@
 Programa de reparto de asignaturas entre profesores
 
 
-English (translation by Google)
+English
 -------
 
 A college offers various subjects to its students. These subjects are taught by teachers. Before the start of classes, the teachers distribute among themselves the subjects they are going to teach. Without prior planning, this deal can be difficult, wrong, or unfair. A distribution is difficult when it requires hours of meetings, since there are numerous subjects to distribute, or many teachers involved. A distribution may not be valid when there are subjects that cannot be distributed, because the minimum or maximum number of hours assignable to each teacher would be breached. A distribution can be unfair when some teachers receive few subjects, and others receive many. These difficulties can be avoided with a computer to make the distribution.
@@ -35,6 +35,7 @@ El programa utiliza una técnica de vuelta atrás o backtracking. Esta técnica 
 
 Podemos representar las n asignaturas mediante un vector [1-n]. Durante el reparto, cada profesor recibe una cantidad de horas válida, es decir, dentro de un rango mínimo y máximo permitido. El reparto termina cuando no quedan asignaturas que repartir. El reparto puede representarse como un árbol de búsqueda.
 
+El programa puede procesar hasta 
 Bibliografía:
 
   https://es.m.wikipedia.org/wiki/Problema_de_las_ocho_reinas
